@@ -1,3 +1,7 @@
+# Positive and Unlabeled Learning
+simulating unlabeled data in the breast cancer data set, then building a classifer using propensity
+Uses Selected at Random Assumption and propensity. Adapted from "Machine Learning from Weak Supervision" https://mitpress.mit.edu/9780262047074/machine-learning-from-weak-supervision/
+
 
 # Propensity Model and Propensity Breast Cancer
 
