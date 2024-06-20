@@ -91,11 +91,3 @@ To run the notebook, you need to have Jupyter installed. You can start Jupyter b
 - pandas
 - sklearn
 
-You can install them using pip:
-
-```
-pip install numpy pandas sklearn
-```To run the `propensity_ops.py` script, you can use a Python interpreter. For example, you can run `python propensity_ops.py` in your terminal.
-
-## Dependencies
-
