@@ -50,15 +50,6 @@ To run the notebook, you need to have Python and Jupyter installed on your machi
 The `propensity_breast_cancer.ipynb` notebook applies the Propensity Model to a breast cancer dataset. 
 ```
 
-- Loading the data
-Then, you can start Jupyter by running:
-
-- Estimating the propensity scores
-- Computing the class weights
-- Training the PU model
-- Calculating the optimal threshold
-- Making predictions on the test set
-- Saving the predictions to a CSV file
 
 
 ## Dependencies
