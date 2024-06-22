@@ -11,13 +11,10 @@ This project contains a Propensity Model and a Jupyter notebook `propensity_brea
 
 The Propensity Model is implemented in the `propensity_ops.py` file. It contains the following functions:
 
-# Propensity Model and Propensity Breast Cancer
 
 - `estimate_propensity_scores(X, y)`: Estimates the propensity scores using logistic regression. The propensity score for an observation is the probability that the observation is in the positive class.
 
 This project contains a Propensity Model and a Jupyter notebook `propensity_breast_cancer.ipynb` that applies the model to a breast cancer dataset.
-
-## Propensity Model
 
 - `compute_class_weights(y, propensity_scores)`: Computes the class weights for the positive class. The class weight is the inverse of the mean propensity score for the positive class.
 
