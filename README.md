@@ -44,7 +44,7 @@ The `propensity_breast_cancer.ipynb` notebook applies the Propensity Model to a 
 
 ## Propensity Breast Cancer Notebook
 
-To run the notebook, you need to have Python and Jupyter installed on your machine. You can install them using pip:
+To run the notebook, you need to have Python and Jupyter installed on your machine.
 
 ```
 The `propensity_breast_cancer.ipynb` notebook applies the Propensity Model to a breast cancer dataset. 
