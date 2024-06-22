@@ -33,20 +33,14 @@ The `propensity_breast_cancer.ipynb` notebook applies the Propensity Model to a 
 1. Load the data.
 2. Estimate the propensity scores.
 3. Compute the class weights.
-- `compute_class_weights(y, propensity_scores)`: This function computes the class weights for the positive class. The class weight is the inverse of the mean propensity score for the positive class.
-
 4. Split the data into a training set and a test set.
 5. Train the PU model on the training data.
 6. Predict the probabilities of the positive class for the test data.
 7. Calculate the optimal threshold for classifying observations.
-- `train_pu_model(X, y, class_weights)`: This function trains a logistic regression model on the data `X` and labels `y`, using the provided class weights.
-
 8. Classify the test observations as positive or negative based on the optimal threshold.
 9. Save the predicted positive observations to a CSV file.
 
-## How to Run
 
-- `calculate_optimal_threshold(y, y_probs)`: This function calculates the optimal threshold for classifying instances as positive or negative. The optimal threshold is the one that minimizes the Euclidean distance to the top left corner of the ROC curve.
 
 ## Propensity Breast Cancer Notebook
 
@@ -62,19 +56,10 @@ Then, you can start Jupyter by running:
 - Estimating the propensity scores
 - Computing the class weights
 - Training the PU model
-```
-jupyter notebook
-```
-
 - Calculating the optimal threshold
 - Making predictions on the test set
 - Saving the predictions to a CSV file
 
-In the Jupyter dashboard, navigate to the directory containing the notebook and click on it to open it.
-
-## How to Run
-
-To run the cells in the notebook, you can click on a cell and then click the "Run" button in the toolbar, or you can press Shift+Enter.
 
 ## Dependencies
 
